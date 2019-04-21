@@ -1,0 +1,5 @@
+(library (parser-symbol)
+  (import (parser))
+  (define >>= bind)
+  (define <_> choice)
+  )
